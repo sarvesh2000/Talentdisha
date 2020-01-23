@@ -1,102 +1,113 @@
-body{
-    background-image: url("imgs/body_bg.jpg");
+body {
+  /* background-image: url("imgs/body_bg.jpg"); */
 }
-#main{
-    background-image: url("imgs/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 950px;
+.brands {
+  margin-top: 10%;
+}
+.why {
+  background: #262626;
+  padding-bottom: 5%;
+  padding-top: 20px;
+}
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  height: 10%;
 }
 .circle-img {
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-  }
-  
-  .circle-img img {
-    height: 100%;
-    transform: translateX(-50%);
-    margin-left: 50%;
-  }
-
-#footer{
-      background-color: purple;
-      color: white;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
 }
 
-section{
-    background-color: #9427b0;
-    color: white;
-    height: 15rem;
+.circle-img img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
 }
 
-#who{
-    background-color: #21c2af;
-    color: white;
-    margin-bottom: 0;
+#footer {
+  background-color: #262626;
+  color: white;
 }
 
-#j1{
-    background-image: url("imgs/teaching.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+section {
+  background-color: #9427b0;
+  color: white;
+  height: 15rem;
 }
 
-#j2{
-    background-image: url("imgs/invest.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10px;
-    color: white;
+#who {
+  background-color: #21c2af;
+  color: white;
+  margin-bottom: 0;
 }
 
-#j3{
-    background-image: url("imgs/interview.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: 10px;*/
-    color: white;
+#j1 {
+  background-image: url("imgs/teaching.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-#j4{
-    background-image: url("imgs/support.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -120px;
-    color: white;
+#j2 {
+  background-image: url("imgs/invest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10px;
+  color: white;
 }
 
-#j5{
-    background-image: url("imgs/practice.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -120px;
-    color: white;
+#j3 {
+  background-image: url("imgs/interview.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: 10px;*/
+  color: white;
 }
 
-#j6{
-    background-image: url("imgs/community.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -120px;
-    color: white;
+#j4 {
+  background-image: url("imgs/support.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px;
+  color: white;
 }
 
-#j7{
-    background-image: url("imgs/salary.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -200px;
-    color: white;
+#j5 {
+  background-image: url("imgs/practice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px;
+  color: white;
 }
 
-#career{
-    margin-top: 15rem;
+#j6 {
+  background-image: url("imgs/community.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px;
+  color: white;
 }
 
-#main2{
-    margin-top: 5rem;
+#j7 {
+  background-image: url("imgs/salary.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+  color: white;
+}
+
+#career {
+  margin-top: 15rem;
+}
+
+#main2 {
+  margin-top: 5rem;
 }
 
 .carousel-control-prev-icon,
@@ -108,28 +119,30 @@ section{
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
+.carousel-control-next-icon:after {
+  content: ">";
   font-size: 55px;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
   color: black;
 }
 
-#testimonials{
-    background-color: #dea807;
+.carousel slide {
+  /* background-color: #dea807; */
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 
-.carousel{
-    height: 25rem;
+.carousel {
+  height: 25rem;
 }
 
-.carousel-inner{
-    margin: 0 auto;
-    width: 50%;
+.carousel-inner {
+  margin: 0 auto;
+  width: 50%;
 }
