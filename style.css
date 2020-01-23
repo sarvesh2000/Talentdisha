@@ -1,0 +1,135 @@
+body{
+    background-image: url("imgs/body_bg.jpg");
+}
+#main{
+    background-image: url("imgs/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+.circle-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .circle-img img {
+    height: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+
+#footer{
+      background-color: purple;
+      color: white;
+}
+
+section{
+    background-color: #9427b0;
+    color: white;
+    height: 15rem;
+}
+
+#who{
+    background-color: #21c2af;
+    color: white;
+    margin-bottom: 0;
+}
+
+#j1{
+    background-image: url("imgs/teaching.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#j2{
+    background-image: url("imgs/invest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px;
+    color: white;
+}
+
+#j3{
+    background-image: url("imgs/interview.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: 10px;*/
+    color: white;
+}
+
+#j4{
+    background-image: url("imgs/support.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -120px;
+    color: white;
+}
+
+#j5{
+    background-image: url("imgs/practice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -120px;
+    color: white;
+}
+
+#j6{
+    background-image: url("imgs/community.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -120px;
+    color: white;
+}
+
+#j7{
+    background-image: url("imgs/salary.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    color: white;
+}
+
+#career{
+    margin-top: 15rem;
+}
+
+#main2{
+    margin-top: 5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+#testimonials{
+    background-color: #dea807;
+}
+
+.carousel{
+    height: 25rem;
+}
+
+.carousel-inner{
+    margin: 0 auto;
+    width: 50%;
+}
