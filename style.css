@@ -2,21 +2,25 @@ body {
   /* background-image: url("imgs/body_bg.jpg"); */
 }
 .brands {
-  margin-top: 10%;
+ 
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 .why {
   background: #262626;
-  padding-bottom: 5%;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #main {
+  padding-top:10%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("imgs/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 100%;
+  background-position: center;
   height: 10%;
+  padding-bottom:10%;
 }
 .circle-img {
   width: 250px;
@@ -38,15 +42,19 @@ body {
 section {
   background-color: #9427b0;
   color: white;
-  height: 15rem;
+  height: 20rem;
 }
 
 #who {
   background-color: #21c2af;
   color: white;
   margin-bottom: 0;
+  line-height: 2rem;
 }
-
+#who i{
+  line-height: 5rem;
+  font-size: x-large;
+}
 #j1 {
   background-image: url("imgs/teaching.jpg");
   background-repeat: no-repeat;
@@ -58,7 +66,7 @@ section {
   background-image: url("imgs/invest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10px;
+  /*background-position: 10px;*/
   color: white;
 }
 
@@ -74,7 +82,7 @@ section {
   background-image: url("imgs/support.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -120px;
+  /*background-position-y: -120px;*/
   color: white;
 }
 
@@ -82,7 +90,7 @@ section {
   background-image: url("imgs/practice.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -120px;
+  /*background-position-y: -120px;*/
   color: white;
 }
 
@@ -90,7 +98,7 @@ section {
   background-image: url("imgs/community.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -120px;
+  /*background-position-y: -120px;*/
   color: white;
 }
 
@@ -98,7 +106,7 @@ section {
   background-image: url("imgs/salary.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -200px;
+  /*background-position-y: -200px;*/
   color: white;
 }
 
@@ -139,10 +147,13 @@ section {
 }
 
 .carousel {
-  height: 25rem;
+  height: 30rem;
 }
 
 .carousel-inner {
   margin: 0 auto;
   width: 50%;
+}
+.testimonials{
+  margin:20%;
 }
