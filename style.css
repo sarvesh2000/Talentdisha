@@ -1,15 +1,14 @@
-body {
-  /* background-image: url("imgs/body_bg.jpg"); */
-}
 .brands {
  
   padding-top: 100px;
   padding-bottom: 200px;
+  width: 100%;
 }
 .why {
   background: #262626;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
 }
 #main {
   padding-top:10%;
